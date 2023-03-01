@@ -62,7 +62,6 @@ header nav a:hover {
 /********************** MAIN **********************/
 
 section.como-ajudamos {
-    position: relative;
     height: 563px;
     margin-top: 135px;
     margin-bottom: 0;
@@ -70,6 +69,7 @@ section.como-ajudamos {
     color: white;
 }
 section .como-ajudamos-flex {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -93,8 +93,8 @@ section .ajuda-box p {
 
 section .conhecimento-profundo {
     position: absolute;
-    right: 430px;
-    bottom: 60px;
+    top: -60px;
+    left: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
